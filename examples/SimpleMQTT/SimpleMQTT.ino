@@ -13,8 +13,8 @@ char *region = (char *) "us-east-2";
 char *endpoint = (char *) "a1ibbm0mp18u7f";
 char *mqttHost = (char *) "a1ibbm0mp18u7f.iot.us-east-2.amazonaws.com";
 int mqttPort = 443;
-char *iamKeyId = (char *) "AKIAIL3SDOZ6V3X6KQYA";
-char *iamSecretKey = (char *) "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";
+char *iamKeyId = (char *) "yyyyyy";
+char *iamSecretKey = (char *) "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy";
 const char* aws_topic  = "$aws/things/openclosething/shadow/update";
 
 ESP8266DateTimeProvider dtp;
