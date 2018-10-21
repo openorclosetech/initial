@@ -5,8 +5,8 @@
                                   //https://github.com/Links2004/arduinoWebSockets
                                   //https://projects.eclipse.org/projects/technology.paho/downloads (download Arduino version)
 
-const char *ssid = "Tilgin-PDS5AzRcB5ha";
-const char *password = "QRxSBhzDqRK64";
+const char *ssid = "wifi-ssid";
+const char *password = "xxxxxx";
 
 // See `src/aws_iot_config.h` for formatting
 char *region = (char *) "us-east-2";
