@@ -9,13 +9,13 @@ const char *ssid = "wifi-ssid";
 const char *password = "xxxxxx";
 
 // See `src/aws_iot_config.h` for formatting
-char *region = (char *) "us-east-2";
-char *endpoint = (char *) "a1ibbm0mp18u7f";
-char *mqttHost = (char *) "a1ibbm0mp18u7f.iot.us-east-2.amazonaws.com";
+char *region = (char *) "XXXXXXXXX";
+char *endpoint = (char *) "XXXXXXXXX";
+char *mqttHost = (char *) "XXXXXXXXX.iot.XXXXXXXXX.amazonaws.com";
 int mqttPort = 443;
 char *iamKeyId = (char *) "yyyyyy";
 char *iamSecretKey = (char *) "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy";
-const char* aws_topic  = "$aws/things/openclosething/shadow/update";
+const char* aws_topic  = "$aws/things/XXXXXXXXX/shadow/update";
 
 ESP8266DateTimeProvider dtp;
 AwsIotSigv4 sigv4(&dtp, region, endpoint, mqttHost, mqttPort, iamKeyId, iamSecretKey);
